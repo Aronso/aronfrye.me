@@ -377,7 +377,7 @@ export default function Home({ articles }) {
             and dog lover 🐶
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Chris, a software engineer, educator and entrepreneur based in
+            I’m Aron, a software engineer, educator and entrepreneur based in
             Playa Vista, CA—also known as Silicon Beach. Founding member of the{' '}
             <em>Open Web Foundation</em>, and founder of <em>Stacks.js</em>,{' '}
             <em>Meema</em> & <em>CION Agency</em>.
