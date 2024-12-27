@@ -24,6 +24,7 @@ import logoUofO from '@/images/logos/uofo.png'
 import logoGirlgaze from '@/images/logos/girlgaze.png'
 import logoStacks from '@/images/logos/stacks.png'
 import logoOw3 from '@/images/logos/ow3.png'
+import logoGymnasium from '@/images/logos/gymnasium.png'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
 
@@ -205,10 +206,10 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'Stacks.js, Inc.',
-      title: 'Founder & CEO',
-      logo: logoStacks,
-      start: '2024',
+      company: 'Rupert-Neudeck-Gymnasium.',
+      title: 'Schueler',
+      logo: logoGymnasium,
+      start: '08.2022',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
@@ -361,8 +362,8 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          Aron Frye - Dog lover, software engineer, founder and entrepreneur
-          based in Silicon Beach.
+          Aron Frye - Freunde, Schuele, Fussball
+          Computer.
         </title>
         <meta
           name="description"
@@ -372,15 +373,14 @@ export default function Home({ articles }) {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Software engineer, founder,
+            Schueler, Fussbalspieler, Zocker 
             <br />
-            and dog lover 🐶
+            und Tierliebhaber 🐶
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Aron, a software engineer, educator and entrepreneur based in
-            Playa Vista, CA—also known as Silicon Beach. Founding member of the{' '}
-            <em>Open Web Foundation</em>, and founder of <em>Stacks.js</em>,{' '}
-            <em>Meema</em> & <em>CION Agency</em>.
+            Ich bin Aron, ein Schüler des Rupertneudeck-Gymnasiums und komme vom Draum
+            ,Nottuln. Spieler des{' '}
+            <em>Sv Borussia Darup</em>.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
@@ -394,7 +394,7 @@ export default function Home({ articles }) {
               icon={TwitterIcon}
             />
             <SocialLink
-              href="https://github.com/aronfrye"
+              href="https://github.com/aronso"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
