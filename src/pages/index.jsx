@@ -361,7 +361,7 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          Chris Breuer - Dog lover, software engineer, founder and entrepreneur
+          Aron Frye - Dog lover, software engineer, founder and entrepreneur
           based in Silicon Beach.
         </title>
         <meta
