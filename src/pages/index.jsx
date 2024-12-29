@@ -25,6 +25,9 @@ import logoGirlgaze from '@/images/logos/girlgaze.png'
 import logoStacks from '@/images/logos/stacks.png'
 import logoOw3 from '@/images/logos/ow3.png'
 import logoGymnasium from '@/images/logos/gymnasium.png'
+import logoRealschule from '@/images/logos/realschule.png'
+import logoGrundschule from '@/images/logos/grundschule.png'
+import logoKindergarten from '@/images/logos/kindergarten.png'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
 
@@ -216,65 +219,65 @@ function Resume() {
       },
     },
     {
-      company: 'Open Web Foundation',
-      title: 'Founding Member',
-      logo: logoOw3,
-      start: '2022',
+      company: 'Liebfrauenschule Nottuln',
+      title: 'Schueler',
+      logo: logoRealschule,
+      start: '08.2016',
       end: {
-        label: 'Present',
+        label: '06.2022',
         dateTime: new Date().getFullYear(),
       },
     },
     {
-      company: 'Bixolon',
-      title: 'Consultant',
-      logo: logoBixolon,
-      start: '2020',
+      company: 'Sebastian Grundschule Darup',
+      title: 'Schueler',
+      logo: logoGrundschule,
+      start: '08.2012',
       end: {
-        label: 'Present',
+        label: '06.2016',
         dateTime: new Date().getFullYear(),
       },
     },
     {
-      company: 'University of Oregon',
-      title: 'Consultant',
-      logo: logoUofO,
-      start: '2020',
+      company: 'St. Marien Darup Kindergarten',
+      title: 'Kindergartenkind',
+      logo: logoKindergarten,
+      start: '06.2012',
       end: {
-        label: '2021',
+        label: '08.2009',
         dateTime: new Date().getFullYear(),
       },
     },
-    {
-      company: 'Girlgaze',
-      title: 'Consultant',
-      logo: logoGirlgaze,
-      start: '2019',
-      end: {
-        label: '2020',
-        dateTime: new Date().getFullYear(),
-      },
-    },
-    {
-      company: 'Eliinova',
-      title: 'Engineering Lead',
-      logo: logoEliinova,
-      start: '2018',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear(),
-      },
-    },
-    {
-      company: 'CION',
-      title: 'Founder & CEO',
-      logo: logoCion,
-      start: '2016',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear(),
-      },
-    },
+    // {
+    //   company: 'Girlgaze',
+    //   title: 'Consultant',
+    //   logo: logoGirlgaze,
+    //   start: '2019',
+    //   end: {
+    //     label: '2020',
+    //     dateTime: new Date().getFullYear(),
+    //   },
+    // },
+    // {
+    //   company: 'Eliinova',
+    //   title: 'Engineering Lead',
+    //   logo: logoEliinova,
+    //   start: '2018',
+    //   end: {
+    //     label: 'Present',
+    //     dateTime: new Date().getFullYear(),
+    //   },
+    // },
+    // {
+    //   company: 'CION',
+    //   title: 'Founder & CEO',
+    //   logo: logoCion,
+    //   start: '2016',
+    //   end: {
+    //     label: 'Present',
+    //     dateTime: new Date().getFullYear(),
+    //   },
+    // },
   ]
 
   return (
