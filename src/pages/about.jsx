@@ -10,8 +10,10 @@ import {
   InstagramIcon,
   GitHubIcon,
   LinkedInIcon,
+  DiscordIcon,
 } from '@/components/SocialIcons'
-import portraitImage from '@/images/chris.jpg'
+import portraitImage from '@/images/aron.png'
+
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -42,7 +44,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About - Chris Breuer</title>
+        <title>About - Aron Frye</title>
         <meta
           name="description"
           content="I’m Chris Breuer. I live in Silicon Beach where I design the future."
@@ -62,44 +64,48 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Chris Breuer. I live in Silicon Beach where I design the
-              future.
+              Ich bin Aron Frye. Ich lebe auf dem Draum	und möchte
+              die Zukunft designen.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                Ever since I was young, I’ve loved to explore, learn, and
-                create, especially while using tech. When I was 12-years-old, I
-                wrote my first SaaS app, and to my surprise, it turned out quite
-                successful and brought in several hundreds of dollars monthly
-                via Google AdSense.
+                Schon seid dem ich jung war, hat mich die Technick fasziniert und 
+                ich möchte sie nach meinen Vorstellungen designen. In meiner 
+                Schulzeit, im Informatikunterricht und bei meinenem Praktikum bei 
+                361Gradmedien in Nottuln, hat sich mein Interesse für das Programmieren 
+                gezeigt. Deswegen möchte ich in Zukunft noch viel mehr über das Coden lernen.
               </p>
               <p>
-                The only thing I loved more than computers as a kid was sports
-                and the outdoors. Almost 20 years later, not much has changed
-                and going on hikes with my dogs and playing soccer are still
-                some of the few things that peel me away from my desk.
+                Das Einzige was mir noch mehr Spaß macht als das Coden, ist
+                der Sport und andere Aktivitäten mit meinen Freunden.
+                Besonders viel Spaß macht mir das Fußball spielen, deswegen
+                spiele ich im Verein beim SV Borussia Darup. 
+                Auch das Fahrrad fahren macht mir viel Spaß, aus diesem Grund fahre
+                ich auch jetzt immer noch gerne mit Fahrrad zur Schule oder zum Fußball.
+                Natürlich nicht zu vergessen, sind auch unsere Katzen, die uns mit ihrem 
+                Heißhunger immer auf trapp halten.
               </p>
               <p>
-                I spent the last 10+ years working on personal & private
-                projects, ranging from small apps to large enterprise
-                services—which caused my obsession with building scalable &
-                serverless systems. In fact, I dove deep into &ldquo;data
-                storage & transfer&rdquo; and &rdquo;distributed & decentralized
-                compute&ldquo; techniques these past years. And this was the
-                reason I started working on Stacks.
+                Die letzten Jahre habe ich in der Schule verbracht.
+                Zu erst war ich auf der Liebfrauenschule (Sekundarschule) 
+                in Nottuln und habe den Realschulabschluss gemacht.
+                Nun bin ich auf dem Rupert-Neudeck-Gymnasium in Nottuln und mache
+                das Zentralabitur. Da ich von der Realschule auf das Gymnasium 
+                gewechselt bin habe ich natürlich nicht den allerbesten Notenschnitt
+                sollte aber mein Abitur ohne größere Probleme bestehen.
               </p>
               <p>
-                Today, I’m the founder of Open Web & the Stacks framework. It’s
-                exciting to work on the future of web technologies and
-                application development, and I can’t wait to share our upcoming
-                v1.0 release. Until then, follow along our journey on GitHub &
-                Twitter to get the latest and greatest real-time updates.
+                Jetzt muss ich lernen, lernen, lernen.
+                Denn ich möchte ja mein Abitur mit hbwegs guten Noten bestehen.
+                Desweiteren möchte ich wieder zurück zu mehr coden kommen und 
+                meine Skills weiter verbessern.
+                Und mit meinen Skills die Digitalisierung verbessern und voran bringen.
               </p>
             </div>
           </div>
           <div className="lg:pl-20">
             <ul role="list">
-              <SocialLink
+              {/* <SocialLink
                 href="https://bsky.app/profile/chrisbreuer.dev"
                 icon={BlueskyIcon}
               >
@@ -111,41 +117,51 @@ export default function About() {
                 className="mt-4"
               >
                 Follow on Twitter
-              </SocialLink>
+              </SocialLink> */}
               <SocialLink
-                href="https://github.com/aronfrye"
+                href="https://github.com/aronso"
                 icon={GitHubIcon}
                 className="mt-4"
               >
                 Follow on GitHub
               </SocialLink>
-              <SocialLink
+              {/* <SocialLink
                 href="https://www.linkedin.com/in/%F0%9F%8C%B1-chris-breuer-33231765/"
                 icon={LinkedInIcon}
                 className="mt-4"
               >
                 Follow on LinkedIn
-              </SocialLink>
-              <SocialLink
+              </SocialLink> */}
+              {/* <SocialLink
                 href="https://www.instagram.com/somebuddyspecial/ "
                 icon={InstagramIcon}
                 className="mt-4"
               >
                 Follow on Instagram
-              </SocialLink>
+              </SocialLink> */}
+              
+              
+               <SocialLink
+                href=""
+                icon={DiscordIcon}
+                className="mt-4"
+              >
+                Discord: justa8669
+              </SocialLink> 
+
               <SocialLink
-                href="mailto:hi@chrisbreuer.dev"
+                href="mailto:aronfrye06@gmail.com"
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                hi@chrisbreuer.dev
+                aronfrye06@gmail.com
               </SocialLink>
               <SocialLink
-                href="mailto:chris@stacksjs.org"
+                href="mailto:aronfrye@gmx.de"
                 icon={MailIcon}
                 className="mt-4"
               >
-                chris@stacksjs.org
+                aronfrye@gmx.de
               </SocialLink>
             </ul>
           </div>
