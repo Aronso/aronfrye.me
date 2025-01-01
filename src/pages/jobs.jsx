@@ -25,7 +25,7 @@ function Tool({ title, href, children }) {
   )
 }
 
-export default function Uses() {
+export default function Jobs() {
   return (
     <>
       <Head>
@@ -42,8 +42,8 @@ export default function Uses() {
         <div className="space-y-20">
           <ToolsSection title="Babyschwimmen">
             <Tool title="Coesfeld Kinder Betreuung">
-              ICh habe einer netten Dame beim Babyschwimmen ausgefholfen. Wir haben von Babys bis Kleinkindern das schwimmen beigebracht. 
-              Dabei haben wir aufgepasst, dass keine Kinder untergehen, sich nicht überanstrengen und das sie das Schwimmen richtig lernen.
+              Ich habe einer netten Dame beim Babyschwimmen ausgefholfen. Wir haben von Babys bis Kleinkindern das schwimmen beigebracht. 
+              Dabei haben wir aufgepasst, dass keine Kinder untergehen, sich nicht überanstrengen und dass sie das Schwimmen richtig lernen.
             </Tool>
             {/* <Tool title="Apple Studio Display">
               Coming from LG’s 27” UltraFine 5K IPS Monitor, I had pretty high expectations for a display.

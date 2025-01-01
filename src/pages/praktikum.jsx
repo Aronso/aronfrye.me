@@ -19,7 +19,7 @@ const praktikum = [
   {
     name: '361gradmedien',
     description:
-      'PRogramieren einer HTML-Programms als Bewerbungsmappe, Designen mehrer kleiner Projekte',
+      'Programmieren eines HTML-Programms als Praktikumsmappe, Designen mehrerer kleiner Projekte',
     link: { href: 'https://361gradmedien.de/', label: '361gradmedien.de' },
     logo: logo361gradmedien,
   },
@@ -33,26 +33,26 @@ const praktikum = [
   {
     name: 'Förster Schulte-Everding',
     description:
-      'Bäume anzeichnen, Bäume ausmessen, Wald bestand aufnehmen.',
+      'Bäume anzeichnen, Bäume ausmessen, Waldbestand aufnehmen.',
     link: { href: 'https://www.wald-und-holz.nrw.de/ueber-uns/einrichtungen/regionalforstaemter/muensterland', label: 'wald-und-holz.nrw.de/ueber-uns/einrichtungen/regionalforstaemter/muensterland (Baumberge)' },
     logo: logoForstamt,
   },
   {
     name: 'Yara GmbH & Co. KG',
-    description: 'Düngemittel mischen, Dünemittel aufs Feld bringen, Pflanzenproben entnehmen.',
+    description: 'Düngemittel mischen, Düngemittel aufs Feld bringen, Pflanzenproben entnehmen.',
     link: { href: 'https://www.yara.de/', label: 'yara.de' },
     logo: logoYara,
   },
     {
       name: 'Stacks',
       description:
-        'kleiner Codingprojekte, Coden der Website',
+        'kleinere Codeingprojekte, Coden der Website',
       link: { href: 'https://stacksjs.org', label: 'stacksjs.org' },
       logo: logoStacks,
     },
   {
     name: 'Universität Münster',
-    description: 'V9orlesung zum Thema Mathe und BIologie angehört, Gelände erkunden',
+    description: 'Vorlesung zum Thema Mathe und Biologie angehört, Gelände erkundet',
     link: { href: 'https://www.uni-muenster.de/de/', label: 'uni-muenster.de/de' },
     logo: logoUni,
   },
@@ -87,7 +87,7 @@ export default function Praktikum() {
       </Head>
       <SimpleLayout
         title="Meine Praktikas, bisher:"
-        intro="Ich habe bis her ein paar Paktikas in verschieden bereichen von Biologie bis Informatik gemacht, bin aber immer offen für neue Erfahrungen!"
+        intro="Ich habe bis her ein paar Paktikas in verschieden Bereichen von Biologie bis Informatik absolviert, bin aber immer offen für neue Erfahrungen!"
       >
         <ul
           role="list"
