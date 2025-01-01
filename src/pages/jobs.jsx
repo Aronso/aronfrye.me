@@ -29,24 +29,23 @@ export default function Uses() {
   return (
     <>
       <Head>
-        <title>Uses - Chris Breuer</title>
+        <title>Jobs - Aron Frye</title>
         <meta
           name="description"
-          content="Software I use, gadgets I love, and other things I recommend."
+          content="Meine Jobs die ich bisher gemacht habe"
         />
       </Head>
       <SimpleLayout
-        title="Software I use, gadgets I love, and other things I recommend."
-        intro="I get asked a lot about the things I use to build software, stay productive, or buy to fool myself into thinking I’m being productive when I’m really just procrastinating. Here’s a big list of all of my favorite stuff."
+        title="Meine Jobs die ich bisher gemacht habe"
+        intro="Meine Minijobs in den ich bisher gearbeitet hab und Spaß gehabt habe :)"
       >
         <div className="space-y-20">
-          <ToolsSection title="Workstation">
-            <Tool title="14” MacBook M3 Pro (2023)">
-              I was using an Intel-based MacBook Pro prior to this and the difference
-              was quite stunning. These days, a MacBook Air running on Apple Silicon is more than powerful
-              enough to run the latest & greatest dev tooling, and that’s great.
+          <ToolsSection title="Babyschwimmen">
+            <Tool title="Coesfeld Kinder Betreuung">
+              ICh habe einer netten Dame beim Babyschwimmen ausgefholfen. Wir haben von Babys bis Kleinkindern das schwimmen beigebracht. 
+              Dabei haben wir aufgepasst, dass keine Kinder untergehen, sich nicht überanstrengen und das sie das Schwimmen richtig lernen.
             </Tool>
-            <Tool title="Apple Studio Display">
+            {/* <Tool title="Apple Studio Display">
               Coming from LG’s 27” UltraFine 5K IPS Monitor, I had pretty high expectations for a display.
               The Apple Studio Display reached them, and went beyond. Its sleek design is a wonderful bonus!
             </Tool>
@@ -57,14 +56,14 @@ export default function Uses() {
             <Tool title="MX Master 3S">
               I’ve been using the MX Master 3 for a few years now and it’s been great. The MX Master 3S feels similar, 
               with a few minor improvements, like the clicks. The scroll wheel is great as always!
-            </Tool>
+            </Tool> */}
           </ToolsSection>
-          <ToolsSection title="Development tools">
-            <Tool title="GitHub Desktop">
-              GitHub Desktop is my trusty sidekick for most git needs. No shame.
-              It’s a great tool to keep your codebase in check, and your commits in line, visually.
+          <ToolsSection title="Gartenarbeiten">
+            <Tool title="Gärtnerei Neiteler">
+              Ich habe mit einem Freund, beid der Gärtnerei NEiteler wausgeholfen.
+              Wir haben z.B. Salatpflanzen eingepflanz und die Treibhäuser frei geräumt, sodass sie für den Winter fertig gemaht werden können.
             </Tool>
-            <Tool title="iTerm2">
+            {/* <Tool title="iTerm2">
               Jeffrey Way recommended it years ago during one of the Laracasts
               videos I was watching. Stuck with it ever since, great terminal.
               <em> Currently exploring Warp.</em>
@@ -84,24 +83,24 @@ export default function Uses() {
             </Tool>
             <Tool title="Supermaven">
               Similar to GitHub Copilot, Supermaven is another AI-powered tool that suggests code snippets incredibly well, and fast.
-            </Tool>
-          </ToolsSection>
-          <ToolsSection title="Design">
+            </Tool>*/}
+          </ToolsSection> 
+          {/* <ToolsSection title="Design">
             <Tool title="Figma">
               We started using Figma as just a design tool but now it’s become
               our virtual whiteboard for everything.
+            </Tool> 
+          </ToolsSection>*/}
+          <ToolsSection title="Kinderbetreung">
+            <Tool title="Abenteuer Hof Bargert">
+              Ich habe bei der Kinderbetreung des Abenteuerhof Bagert mit geholfen. Wir mussten die Kinder belustigen,
+              aufpassen, dass sie sich und die Tiere nicht verletzen und das sie immer Spaß haben. 
             </Tool>
-          </ToolsSection>
-          <ToolsSection title="Productivity">
-            <Tool title="Raycast">
-              With a pretty UI, Raycast makes it simple, fast and delightful to control my tools.
-              I love the fact I can assign custom keyboard shortcuts to anything.
-            </Tool>
-            <Tool title="SavvyCal">
+            {/* <Tool title="SavvyCal">
               Great tool for scheduling meetings while protecting my calendar
               and making sure I still have lots of time for deep work during the
               week.
-            </Tool>
+            </Tool> */}
           </ToolsSection>
         </div>
       </SimpleLayout>
