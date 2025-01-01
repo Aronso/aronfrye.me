@@ -101,15 +101,15 @@ function SocialLink({ icon: Icon, ...props }) {
 function Newsletter() {
   return (
     <div>
-      <div className="mx-auto mb-6 max-w-7xl rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40 md:grid md:grid-cols-1">
+      {/*<div className="mx-auto mb-6 max-w-7xl rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40 md:grid md:grid-cols-1">
         <div className="md:flex md:flex-col">
           <div className="md:flex-shrink-0">
             <div className="dark:hidden">
-              <img
+               <img
                 className="h-20"
                 src="https://logos-world.net/wp-content/uploads/2022/01/University-of-Oregon-Logo.png"
                 alt="University of Oregon Logo"
-              />
+              /> 
             </div>
             <div className="dark:block" hidden>
               <svg
@@ -137,11 +137,11 @@ function Newsletter() {
                   className="cls-1"
                   d="M121.81,67.56c-2,13-12.9,22.63-25.43,27.44a95.64,95.64,0,0,1-34,5.9A96.84,96.84,0,0,1,28.26,95C15.72,90.19,4.86,80.58,2.83,67.56A103.69,103.69,0,0,1,1.5,51.08a110.28,110.28,0,0,1,1.33-16.5c2-13,12.89-22.61,25.43-27.43A97.06,97.06,0,0,1,62.33,1.26,95.85,95.85,0,0,1,96.38,7.15c12.53,4.82,23.39,14.41,25.43,27.43a107.7,107.7,0,0,1,1.33,16.5,107.22,107.22,0,0,1-1.33,16.48M92.92,36.93c-.31-5.57-.9-11.5-4-16C82.77,12.14,72.39,8.53,62.33,8.61S41.86,12.14,35.75,21c-3.11,4.48-3.72,10.41-4,16-.22,4.1-.38,9.09-.39,14.15s.12,10.05.33,14.13c.32,5.59,1,11.49,4.08,16C41.86,90,52.22,93.46,62.33,93.54S82.77,90,88.91,81.2c3.11-4.5,3.75-10.4,4-16,.23-4.08.16-9,.17-14s0-10.13-.2-14.23"
                 />
-              </svg>
-            </div>
+              </svg> 
+            </div> 
             <div></div>
           </div>
-          <blockquote className="mt-6 md:flex md:flex-grow md:flex-col">
+            <blockquote className="mt-6 md:flex md:flex-grow md:flex-col">
             <div className="relative text-lg font-medium text-zinc-800 dark:text-zinc-300 md:flex-grow">
               <svg
                 className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-zinc-200 dark:text-zinc-700"
@@ -174,9 +174,9 @@ function Newsletter() {
                 </div>
               </div>
             </footer>
-          </blockquote>
+          </blockquote> 
         </div>
-      </div>
+      </div>*/}
       <form
         action="/thank-you"
         className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"

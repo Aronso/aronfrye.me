@@ -86,7 +86,7 @@ export default function Praktikum() {
         />
       </Head>
       <SimpleLayout
-        title="Meine PRaktikas, bisher:"
+        title="Meine Praktikas, bisher:"
         intro="Ich habe bis her ein paar Paktikas in verschieden bereichen von Biologie bis Informatik gemacht, bin aber immer offen für neue Erfahrungen!"
       >
         <ul
