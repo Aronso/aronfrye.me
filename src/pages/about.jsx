@@ -90,13 +90,12 @@ export default function About() {
                 Zu erst war ich auf der Liebfrauenschule (Sekundarschule) 
                 in Nottuln und habe den Realschulabschluss gemacht.
                 Nun bin ich auf dem Rupert-Neudeck-Gymnasium in Nottuln und mache
-                das Zentralabitur. Da ich von der Realschule auf das Gymnasium 
-                gewechselt bin habe ich natürlich nicht den allerbesten Notenschnitt
-                sollte aber mein Abitur ohne größere Probleme bestehen.
+                das Zentralabitur. Trotz dem Wechsel von der Realschule auf das Gymnasium 
+                sollte ich mein Abitur ohne größere Probleme bestehen.
               </p>
               <p>
                 Jetzt muss ich lernen, lernen, lernen.
-                Denn ich möchte ja mein Abitur mit hbwegs guten Noten bestehen.
+                Denn ich möchte ja mein Abitur mit halbwegs guten Noten bestehen.
                 Desweiteren möchte ich wieder zurück zu mehr coden kommen und 
                 meine Skills weiter verbessern.
                 Und mit meinen Skills die Digitalisierung verbessern und voran bringen.

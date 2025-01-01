@@ -9,54 +9,59 @@ import logoDataSix from '@/images/logos/datasix.png'
 import logoOw3 from '@/images/logos/ow3.png'
 import logoJwi from '@/images/logos/jwi.svg'
 import logoCbmSkills from '@/images/logos/cbm.svg'
+import logo361gradmedien from '@/images/logos/361gradmedien.png'
+import logoForstamt from '@/images/logos/forstamt.png'
+import logoLabor from '@/images/logos/labor.png'
+import logoYara from '@/images/logos/yara.png'
+import logoUni from '@/images/logos/uni.png'
 
 const praktikum = [
   {
-    name: 'Open Web',
+    name: '361gradmedien',
     description:
-      'At the intersection of tech & humanity, Open Web is a community that develops progressive, open web standards.',
-    link: { href: 'https://ow3.org/', label: 'ow3.org' },
-    logo: logoOw3,
+      'PRogramieren einer HTML-Programms als Bewerbungsmappe, Designen mehrer kleiner Projekte',
+    link: { href: 'https://361gradmedien.de/', label: '361gradmedien.de' },
+    logo: logo361gradmedien,
   },
   {
-    name: 'Stacks',
+    name: 'MVZ Labor Münster Hafenweg GmbH, Münster',
     description:
-      'A progressive, atomic full-stack framework for Web Artisans. Develop framework-agnostic apps, clouds & libraries, faster.',
-    link: { href: 'https://stacksjs.org', label: 'stacksjs.org' },
-    logo: logoStacks,
+      'Ein Tag ins Labor geschnuppert, Aufgrund von Corona leider nichts aktives gemacht, sondern nur geschaut',
+    link: { href: 'https://www.labor-muenster.de/', label: 'labor-muenster.de' },
+    logo: logoLabor,
   },
   {
-    name: 'Meema',
+    name: 'Förster Schulte-Everding',
     description:
-      'Media Management as a Service. The easy way to manage, distribute and scale your media. Soon becoming a Stack.',
-    link: { href: 'https://github.com/meemalabs', label: 'github.com/meemalabs' },
-    logo: logoMeema,
+      'Bäume anzeichnen, Bäume ausmessen, Wald bestand aufnehmen.',
+    link: { href: 'https://www.wald-und-holz.nrw.de/ueber-uns/einrichtungen/regionalforstaemter/muensterland', label: 'wald-und-holz.nrw.de/ueber-uns/einrichtungen/regionalforstaemter/muensterland (Baumberge)' },
+    logo: logoForstamt,
   },
   {
-    name: 'CBM Skills',
-    description: 'Helping each student master math & reading through high-quality educational content, ensuring a successful learning experience.',
-    link: { href: 'https://cbmskills.com', label: 'cbmskills.com' },
-    logo: logoCbmSkills,
+    name: 'Yara GmbH & Co. KG',
+    description: 'Düngemittel mischen, Dünemittel aufs Feld bringen, Pflanzenproben entnehmen.',
+    link: { href: 'https://www.yara.de/', label: 'yara.de' },
+    logo: logoYara,
   },
+    {
+      name: 'Stacks',
+      description:
+        'kleiner Codingprojekte, Coden der Website',
+      link: { href: 'https://stacksjs.org', label: 'stacksjs.org' },
+      logo: logoStacks,
+    },
   {
-    name: 'Greenline',
-    description:
-      'Started as a napkin sketch idea that developed into a fully integrated cloud based POS & management system for Dry Cleaners.',
-    link: { href: 'https://eliinova.com', label: 'eliinova.com' },
-    logo: logoGreenline,
+    name: 'Universität Münster',
+    description: 'V9orlesung zum Thema Mathe und BIologie angehört, Gelände erkunden',
+    link: { href: 'https://www.uni-muenster.de/de/', label: 'uni-muenster.de/de' },
+    logo: logoUni,
   },
-  {
-    name: 'JWI Enterprises',
-    description: 'A custom contact & order management system, tracking millions of USD. Built with Laravel & Vue for scalability & maintainability.',
-    link: { href: 'https://jwienterprises.com', label: 'jwienterprises.com' },
-    logo: logoJwi,
-  },
-  {
-    name: 'DataSix',
-    description: 'A big data analytics tool to see Facebook advertising costs and insights across your market—before you buy.',
-    link: { href: 'https://datasix.com', label: 'datasix.com' },
-    logo: logoDataSix,
-  },
+  // {
+  //   name: 'DataSix',
+  //   description: 'A big data analytics tool to see Facebook advertising costs and insights across your market—before you buy.',
+  //   link: { href: 'https://datasix.com', label: 'datasix.com' },
+  //   logo: logoDataSix,
+  // },
 ]
 
 function LinkIcon(props) {
@@ -77,12 +82,12 @@ export default function Praktikum() {
         <title>Praktikum - Aron Frye</title>
         <meta
           name="description"
-          content="Things I’ve made trying to put my dent in the universe."
+          content="Meine Praktikas"
         />
       </Head>
       <SimpleLayout
-        title="Things I’ve made trying to put my dent in the universe."
-        intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+        title="Meine PRaktikas, bisher:"
+        intro="Ich habe bis her ein paar Paktikas in verschieden bereichen von Biologie bis Informatik gemacht, bin aber immer offen für neue Erfahrungen!"
       >
         <ul
           role="list"

@@ -17,13 +17,13 @@ import image2 from '@/images/photos/image-2.jpeg'
 import image3 from '@/images/photos/image-3.jpeg'
 import image4 from '@/images/photos/image-4.jpeg'
 import image5 from '@/images/photos/image-5.jpeg'
-import logoEliinova from '@/images/logos/eliinova.png'
-import logoCion from '@/images/logos/cion.png'
-import logoBixolon from '@/images/logos/bixolon.png'
-import logoUofO from '@/images/logos/uofo.png'
-import logoGirlgaze from '@/images/logos/girlgaze.png'
-import logoStacks from '@/images/logos/stacks.png'
-import logoOw3 from '@/images/logos/ow3.png'
+// import logoEliinova from '@/images/logos/eliinova.png'
+// import logoCion from '@/images/logos/cion.png'
+// import logoBixolon from '@/images/logos/bixolon.png'
+// import logoUofO from '@/images/logos/uofo.png'
+// import logoGirlgaze from '@/images/logos/girlgaze.png'
+// import logoStacks from '@/images/logos/stacks.png'
+// import logoOw3 from '@/images/logos/ow3.png'
 import logoGymnasium from '@/images/logos/gymnasium.png'
 import logoRealschule from '@/images/logos/realschule.png'
 import logoGrundschule from '@/images/logos/grundschule.png'
@@ -284,7 +284,7 @@ function Resume() {
     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <BriefcaseIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Work</span>
+        <span className="ml-3">Schule</span>
       </h2>
       <ol className="mt-6 space-y-4">
         {resume.map((role, roleIndex) => (
