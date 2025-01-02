@@ -370,7 +370,7 @@ export default function Home({ articles }) {
         </title>
         <meta
           name="description"
-          content="Ich bin Aron, ein Schüler des Rupertneudeck-Gymnasiums und komme vom Draum, aus Nottuln."
+          content="Ich bin Aron, ein Schüler des Rupert-Neudeck-Gymnasiums und komme vom Draum, aus Nottuln."
         />
       </Head>
       <Container className="mt-9">
