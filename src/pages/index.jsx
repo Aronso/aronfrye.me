@@ -209,7 +209,7 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'Rupert-Neudeck-Gymnasium.',
+      company: 'Rupert-Neudeck-Gymnasium Nottuln',
       title: 'Schueler',
       logo: logoGymnasium,
       start: '08.2022',
@@ -370,7 +370,7 @@ export default function Home({ articles }) {
         </title>
         <meta
           name="description"
-          content="Ich bin Aron, ein Schüler des Rupertneudeck-Gymnasiums und komme vom Draum, Nottuln."
+          content="Ich bin Aron, ein Schüler des Rupertneudeck-Gymnasiums und komme vom Draum, aus Nottuln."
         />
       </Head>
       <Container className="mt-9">
@@ -382,7 +382,7 @@ export default function Home({ articles }) {
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             Ich bin Aron, ein Schüler des Rupertneudeck-Gymnasiums und komme vom Draum,
-            Nottuln. Spieler des{' '}
+            aus Nottuln. Spieler des{' '}
             <em>Sv Borussia Darup</em>.
           </p>
           <div className="mt-6 flex gap-6">
