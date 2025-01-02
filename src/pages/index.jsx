@@ -380,7 +380,7 @@ export default function Home({ articles }) {
             <br />
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Ich bin Aron, ein Schüler des Rupert-Neudeck-Gymnasiums und komme vom Draum,
+            Ich bin Aron, ein Schüler des Rupert-Neudeck-Gymnasiums und komme vom Draum
             aus Nottuln. Spieler des{' '}
             <em>Sv Borussia Darup</em>.
           </p>

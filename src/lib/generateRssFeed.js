@@ -8,13 +8,13 @@ export async function generateRssFeed() {
   let articles = await getAllArticles()
   let siteUrl = process.env.NEXT_PUBLIC_SITE_URL
   let author = {
-    name: 'Chris Breuer',
-    email: 'chris@stacksjs.org',
+    name: 'Aron Frye',
+    email: 'aronfrye06@gmail.com',
   }
 
   let feed = new Feed({
     title: author.name,
-    description: 'Chris Breuer\'s personal blog. I write about web technologies & application development. And some other stuff.',
+    description: 'Aron Frye\'s personal blog. I write about web technologies & application development. And some other stuff.',
     author,
     id: siteUrl,
     link: siteUrl,

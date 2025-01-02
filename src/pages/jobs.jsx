@@ -61,7 +61,7 @@ export default function Jobs() {
           <ToolsSection title="Gartenarbeiten">
             <Tool title="Gärtnerei Neiteler">
               Ich habe mit einem Freund, bei der Gärtnerei Neiteler ausgeholfen.
-              Wir haben z.B. Salatpflanzen eingepflanzt und die Treibhäuser frei geräumt, sodass sie für den Winter fertig gemaht werden können.
+              Wir haben z.B. Salatpflanzen eingepflanzt und die Treibhäuser frei geräumt, sodass sie für den Winter fertig gemacht werden konnten.
             </Tool>
             {/* <Tool title="iTerm2">
               Jeffrey Way recommended it years ago during one of the Laracasts
@@ -92,7 +92,7 @@ export default function Jobs() {
             </Tool> 
           </ToolsSection>*/}
           <ToolsSection title="Kinderbetreuung">
-            <Tool title="Abenteuer Hof Bargert">
+            <Tool title="Abenteuerhof Bargert">
               Ich habe in den Ferien, bei der Kinderbetreuung des Abenteuerhofs Bagert, mit geholfen. Wir mussten die Kinder belustigen,
               aufpassen, dass sie sich und die Tiere nicht verletzen und das sie immer Spaß haben. 
             </Tool>

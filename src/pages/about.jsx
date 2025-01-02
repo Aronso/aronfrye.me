@@ -47,7 +47,7 @@ export default function About() {
         <title>About - Aron Frye</title>
         <meta
           name="description"
-          content="I’m Chris Breuer. I live in Silicon Beach where I design the future."
+          content="Ich bin Aron, ein Schüler des Rupert-Neudeck-Gymnasiums und komme vom Draum, aus Nottuln."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -90,7 +90,7 @@ export default function About() {
                 Zu erst war ich auf der Liebfrauenschule (Sekundarschule) 
                 in Nottuln und habe den Realschulabschluss gemacht.
                 Nun bin ich auf dem Rupert-Neudeck-Gymnasium in Nottuln und mache
-                das Zentralabitur. Trotz dem Wechsel von der Realschule auf das Gymnasium 
+                das Zentralabitur. Trotz des Wechsels von der Sekundarschule auf das Gymnasium 
                 sollte ich mein Abitur ohne größere Probleme bestehen.
               </p>
               <p>
