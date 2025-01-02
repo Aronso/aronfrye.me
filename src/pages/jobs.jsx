@@ -42,8 +42,8 @@ export default function Jobs() {
         <div className="space-y-20">
           <ToolsSection title="Babyschwimmen">
             <Tool title="Coesfeld Kinder Betreuung">
-              Ich habe einer netten Dame beim Babyschwimmen ausgefholfen. Wir haben von Babys bis Kleinkindern das Schwimmen beigebracht. 
-              Dabei haben wir aufgepasst, dass keine Kinder untergehen, sich nicht überanstrengen und dass sie das Schwimmen richtig lernen.
+              Ich habe einer netten Dame beim Babyschwimmen ausgeholfen. Wir haben  Babys und Kleinkindern das Schwimmen beigebracht. 
+              Dabei haben wir aufgepasst, dass keine Kinder untergehen und dass sie das Schwimmen richtig lernen.
             </Tool>
             {/* <Tool title="Apple Studio Display">
               Coming from LG’s 27” UltraFine 5K IPS Monitor, I had pretty high expectations for a display.
@@ -92,8 +92,8 @@ export default function Jobs() {
             </Tool> 
           </ToolsSection>*/}
           <ToolsSection title="Kinderbetreuung">
-            <Tool title="Abenteuerhof Bargert">
-              Ich habe in den Ferien, bei der Kinderbetreuung des Abenteuerhofs Bagert, mit geholfen. Wir mussten die Kinder belustigen,
+            <Tool title="Abenteuerhof Bagert">
+              Ich habe in den Ferien, bei der Kinderbetreuung des Abenteuerhofs Bagert, mit geholfen. Wir musten die Kinder belustigen,
               aufpassen, dass sie sich und die Tiere nicht verletzen und das sie immer Spaß haben. 
             </Tool>
             {/* <Tool title="SavvyCal">
