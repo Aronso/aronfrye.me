@@ -61,8 +61,8 @@ export default function () {
           <ToolsSection title="Zoken">
             <Tool title="Vorwiegend Minecraft aber auch Brawlstars">
                Wie fast jeder junge Mensch, habe ich sehr viel Spaß mich an den PC zu setzten und zu spielen.
-               Ich spiele vorallem gerne "Minecraft", dort auf dem Server Hypixel Skyblock.
-               Aber auch das Handyspiel "Brawlstars" macht mir Spaß es mit Freunden oder meiner Schwester zu spielen.
+               Ich spiele vorallem gerne Minecraft, dort auf dem Server Hypixel Skyblock.
+               Aber auch das Handyspiel Brawlstars"macht mir Spaß es mit Freunden oder meiner Schwester zu spielen.
             </Tool>
           </ToolsSection>
         </div>
