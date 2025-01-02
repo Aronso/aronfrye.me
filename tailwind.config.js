@@ -120,7 +120,7 @@ module.exports = {
           },
 
           // Images
-          img: {
+          image: {
             borderRadius: theme('borderRadius.3xl'),
           },
 
