@@ -21,8 +21,8 @@ export default function App({ Component, pageProps, router }) {
 
   useEffect(() => {
     // Initialize Fathom when the app loads
-    Fathom.load('RWXTXCQZ', {
-      includedDomains: ['www.chrisbreuer.dev'],
+    Fathom.load('IDRBNSIQ', {
+      includedDomains: ['www.aronfrye.me'],
     });
 
     function onRouteChangeComplete() {
