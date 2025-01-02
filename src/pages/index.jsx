@@ -105,7 +105,7 @@ function Newsletter() {
         <div className="md:flex md:flex-col">
           <div className="md:flex-shrink-0">
             <div className="dark:hidden">
-               <img
+               <image
                 className="h-20"
                 src="https://logos-world.net/wp-content/uploads/2022/01/University-of-Oregon-Logo.png"
                 alt="University of Oregon Logo"
@@ -157,7 +157,7 @@ function Newsletter() {
             <footer className="mt-8">
               <div className="flex items-start">
                 <div className="inline-flex flex-shrink-0 rounded-full border-2 border-white">
-                  <img
+                  <image
                     className="h-12 w-12 rounded-full object-cover"
                     src="/gerald.png"
                     alt="Gerald Tindal Headshot"
@@ -370,13 +370,13 @@ export default function Home({ articles }) {
         </title>
         <meta
           name="description"
-          content="I’m Chris, a software engineer, educator and entrepreneur based in Playa Vista, CA—also known as Silicon Beach. I’m the founder of Stacks.js, Meema and CION Agency."
+          content="Ich bin Aron, ein Schüler des Rupertneudeck-Gymnasiums und komme vom Draum, Nottuln."
         />
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Schueler, Fussbalspieler, Zocker 
+            Schueler, Fussballspieler, Zocker 
             <br />
             und Tierliebhaber 🐶
           </h1>
@@ -387,11 +387,11 @@ export default function Home({ articles }) {
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href="https://bsky.app/profile/chrisbreuer.dev"
-              aria-label="Follow on Twitter"
-              icon={BlueskyIcon}
+              href="https://github.com/aronso"
+              aria-label="Follow on GitHub"
+              icon={GitHubIcon}
             />
-            <SocialLink
+            {/* <SocialLink
               href="https://twitter.com/aronfrye"
               aria-label="Follow on Twitter"
               icon={TwitterIcon}
@@ -410,7 +410,7 @@ export default function Home({ articles }) {
               href="https://instagram.com/somebuddyspecial"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
-            />
+            /> */}
           </div>
         </div>
       </Container>
