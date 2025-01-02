@@ -381,8 +381,8 @@ export default function Home({ articles }) {
             und Tierliebhaber 🐶
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Ich bin Aron, ein Schüler des Rupertneudeck-Gymnasiums und komme vom Draum
-            ,Nottuln. Spieler des{' '}
+            Ich bin Aron, ein Schüler des Rupertneudeck-Gymnasiums und komme vom Draum,
+            Nottuln. Spieler des{' '}
             <em>Sv Borussia Darup</em>.
           </p>
           <div className="mt-6 flex gap-6">

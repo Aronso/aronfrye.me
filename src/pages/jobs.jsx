@@ -36,13 +36,13 @@ export default function Jobs() {
         />
       </Head>
       <SimpleLayout
-        title="Meine Jobs die ich bisher gemacht habe"
-        intro="Meine Minijobs in den ich bisher gearbeitet hab und Spaß gehabt habe :)"
+        title="Meine Jobs die ich bisher gearbeitet habe"
+        intro="Meine Minijobs in denenen ich bisher gearbeitet habe und Spaß gehabt habe :)"
       >
         <div className="space-y-20">
           <ToolsSection title="Babyschwimmen">
             <Tool title="Coesfeld Kinder Betreuung">
-              Ich habe einer netten Dame beim Babyschwimmen ausgefholfen. Wir haben von Babys bis Kleinkindern das schwimmen beigebracht. 
+              Ich habe einer netten Dame beim Babyschwimmen ausgefholfen. Wir haben von Babys bis Kleinkindern das Schwimmen beigebracht. 
               Dabei haben wir aufgepasst, dass keine Kinder untergehen, sich nicht überanstrengen und dass sie das Schwimmen richtig lernen.
             </Tool>
             {/* <Tool title="Apple Studio Display">
@@ -60,8 +60,8 @@ export default function Jobs() {
           </ToolsSection>
           <ToolsSection title="Gartenarbeiten">
             <Tool title="Gärtnerei Neiteler">
-              Ich habe mit einem Freund, beid der Gärtnerei NEiteler wausgeholfen.
-              Wir haben z.B. Salatpflanzen eingepflanz und die Treibhäuser frei geräumt, sodass sie für den Winter fertig gemaht werden können.
+              Ich habe mit einem Freund, bei der Gärtnerei Neiteler ausgeholfen.
+              Wir haben z.B. Salatpflanzen eingepflanzt und die Treibhäuser frei geräumt, sodass sie für den Winter fertig gemaht werden können.
             </Tool>
             {/* <Tool title="iTerm2">
               Jeffrey Way recommended it years ago during one of the Laracasts
@@ -91,9 +91,9 @@ export default function Jobs() {
               our virtual whiteboard for everything.
             </Tool> 
           </ToolsSection>*/}
-          <ToolsSection title="Kinderbetreung">
+          <ToolsSection title="Kinderbetreuung">
             <Tool title="Abenteuer Hof Bargert">
-              Ich habe bei der Kinderbetreung des Abenteuerhof Bagert mit geholfen. Wir mussten die Kinder belustigen,
+              Ich habe in den Ferien, bei der Kinderbetreuung des Abenteuerhofs Bagert, mit geholfen. Wir mussten die Kinder belustigen,
               aufpassen, dass sie sich und die Tiere nicht verletzen und das sie immer Spaß haben. 
             </Tool>
             {/* <Tool title="SavvyCal">
