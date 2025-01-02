@@ -47,7 +47,7 @@ const praktikum = [
       name: 'Stacks',
       description:
         'kleinere Codeingprojekte, Coden der Website',
-      link: { href: 'https://stacksjs.org', label: 'stacksjs.org' },
+      link: { href: 'https://stacksjs.netlify.app/', label: 'stacksjs.org' },
       logo: logoStacks,
     },
   {
