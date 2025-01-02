@@ -58,7 +58,7 @@ export default function Hobby() {
               oder sie zumindest beim Fußball oder in der Schule zu sehen und mit ihnen dort Zeit zu verbringen.
             </Tool>
           </ToolsSection> 
-          <ToolsSection title="Zoken">
+          <ToolsSection title="Zocken">
             <Tool title="Vorwiegend Minecraft aber auch Brawlstars">
                Wie fast jeder junge Mensch, habe ich sehr viel Spaß mich an den PC zu setzten und zu spielen.
                Ich spiele vorallem gerne Minecraft, dort auf dem Server Hypixel Skyblock.
