@@ -2,7 +2,7 @@
 
 ## Hi, everyone! 👋🏼
 
-My name is Aron. I am 18 years old & a student who loves computersience, as well as computersiencethe outdoors,to learn about nature. I live near Nottuln.
+My name is Aron. I am 18 years old & a student who loves computer science, as well as the outdoors, learning about nature. I live near Nottuln.
 
 ### A few highlights
 
