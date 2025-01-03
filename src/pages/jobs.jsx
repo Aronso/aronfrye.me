@@ -93,7 +93,7 @@ export default function Jobs() {
           </ToolsSection>*/}
           <ToolsSection title="Kinderbetreuung">
             <Tool title="Abenteuerhof Bagert">
-              Ich habe in den Ferien, bei der Kinderbetreuung des Abenteuerhofs Bagert, mit geholfen. Wir musten die Kinder belustigen,
+              Ich habe in den Ferien, bei der Kinderbetreuung des Abenteuerhofs Bagert, mit geholfen. Wir mussten die Kinder belustigen,
               aufpassen, dass sie sich und die Tiere nicht verletzen und das sie immer Spaß haben. 
             </Tool>
             {/* <Tool title="SavvyCal">
