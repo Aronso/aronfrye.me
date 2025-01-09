@@ -365,7 +365,7 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          Aron Frye - Freunde, Schuele, Fussball
+          Aron Frye - Freunde, Schule, Fussball
           Computer.
         </title>
         <meta
